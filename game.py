@@ -1,6 +1,7 @@
 import pygame
 from map import *
 from entities.tower import *
+from entities.enemy import *
 
 class Game():
 
@@ -34,3 +35,4 @@ def create_towers():
     tower1 = Dart(0,0)
     tower2 = Cannon(375, 75)
     tower3 = Boomerang(300, 375) 
+

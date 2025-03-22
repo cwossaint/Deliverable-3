@@ -35,3 +35,4 @@ class Map():
         y = row * TILE_SIZE
         x = col * TILE_SIZE
         return x, y
+    

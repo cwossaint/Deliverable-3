@@ -5,7 +5,7 @@ class Enemy():
 
     all_enemies = []
 
-    def __init__(self, x, y, speed,  path):
+    def __init__(self, x, y, speed=7,  path=[]):
         self.all_enemies.append(self)
         self.x = x
         self.y = y

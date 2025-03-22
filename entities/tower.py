@@ -8,10 +8,8 @@ class Tower():
 
     def __init__(self, x, y, range=100, damage=1, attack_delay=10):
         self.sprite = None
-        self.range = None
         self.range = range
         self.damage = damage
-        self.attack_delay = attack_delay
         self.attack_delay = attack_delay
         self.attack_timer = 0
         self.x = x
